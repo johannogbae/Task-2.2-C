@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italiano Delights</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Italiano Delights</h1>
+        <p>Explore the flavors of Italy</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="menu">
+            <h2>Our Menu</h2>
+            <div class="dish">
+                <img src="pizza.jpg" alt="Pizza">
+                <h3>Pizza Margherita</h3>
+                <p>Tomato, mozzarella, basil</p>
+                <p>$12.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="dish">
+                <img src="spaghetti.jpg" alt="Spaghetti">
+                <h3>Spaghetti Carbonara</h3>
+                <p>Eggs, cheese, pancetta</p>
+                <p>$14.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+        </section>
+        <section class="reservation">
+            <h2>Make a Reservation</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Italiano Delights</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
